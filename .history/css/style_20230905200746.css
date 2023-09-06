@@ -6,16 +6,13 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
-*,
-*::after,
-*::before {
+* {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
-/* 100%- 16px, browser default, 10px= 10/16= 62.5%*/
 html {
-  font-size: 62.5%;
+  font-size: 100%;
 }
 body {
   font-family: "Lato", sans-serif;
@@ -24,7 +21,6 @@ body {
   line-height: 1.7;
   color: #777;
   padding: 3rem;
-  box-sizing: border-box;
 }
 .header {
   height: 95vh;
