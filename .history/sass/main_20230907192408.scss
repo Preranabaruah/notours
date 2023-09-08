@@ -158,14 +158,8 @@ btn:visited {
     transition: all;
 
     &:hover{
-        transform: skewY(2deg) skewX(15deg) scale(1.1);
-        text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
-
+        transform: skewY(2deg);
     }
-}
-
-.u-center-text{
-    text-align: center;
 }
 
 @keyframes moveInLeft {
